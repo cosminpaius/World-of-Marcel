@@ -1,0 +1,23 @@
+{322CC} Paius Marian-Cosmin
+Durata lucru: 40-50 de ore (1 saptamana si cateva zile)
+Dificultate: A avut o dificultate destul de ridicata
+
+    Inainte de toate, tema nu a fost destul de clara ca si cerinta si a fost nevoie sa adresez mai multe intrebari
+pentru diferite clarificari. Am inceput prin a implementa toate clasele, sabloanele si interfetele care se cereau.
+A durat cam 3-4 zile sa functioneze si metoda hardcodata si cea text.
+    Pentru mai multe functii am folosit random cum ar fi : generarea mapei, a nr. de shopuri. a nr. de inamici,
+pentru a primi recompense etc. Nu am folosit InvalidCommentException mai deloc pentru ca mi s-a parut mai in regula
+ca in cazul unei greseli sa afiseze un mesaj, nu sa iasa din joc. Am incercat ca dupa fiecare atac al caracterului
+curent sa fie random (atac din partea inamicului/abilitate din partea inamicului) si in caz ca inamicul urma sa
+utilizeze o abilitate, alegerea acesteia era tot random.
+    In diferite locuri am adaugat functii de care am avut nevoie, cum ar fi in clasa "Inventory" am adaugat metoda
+"calculgreutate" pentru a calcula de fiecare data cand voiam sa cumpar o potiune greutatea disponibila care a ramas
+in inventar. In clasele caracterelor, am creat functia "upgrade" pentru a calcula puterea, dexteritatea si carisma
+in functie de nivelul la care a ajuns caracterul.
+    Am mai intampinat probleme la parsarea din jsonuri pentru ca a trebuit sa vad cateva tutoriale pentru a reusi
+parsarea si la interfata pentru ca nu am inteles exact cum functioneaza "Layout-urile", incercand astfel sa ma folosesc
+de setBounds. Pentru interfata am incercat sa ma folosesc de codul pe care il scrisesem pentru jocul in terminal
+si a durat vreo 25-30 de ore sa termin interfata si sa rezolv bug-urile.
+    In concluzie, a fost o provocare, ceva ce noi nu am mai intalnit pana acum. Initial, nu credeam ca o sa termin
+tema pentru ca mi se parea imposibil sa creez un joc. Acum, dupa ce am terminat, pot spune ca a meritat efortul
+chiar daca nu a fost cerinta destul de clara.
